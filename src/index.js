@@ -1,10 +1,9 @@
 'use struct'
 
-require('./index.html');
+import './index.html'
+import { Elm } from './Elm/Main.elm'
 
-const Elm = require('./Elm/Main.elm').Elm;
 const main = document.getElementById('main');
-
 const app = Elm.Main.init({
     node: main
 });
