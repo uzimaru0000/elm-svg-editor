@@ -1,6 +1,7 @@
 'use struct'
 
 import './index.html'
+import './style.scss'
 import { Elm } from './Elm/Main.elm'
 
 const main = document.getElementById('main');
